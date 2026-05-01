@@ -14,9 +14,7 @@
 
 ## 🌐 Testar o Aplicativo
 
-> 🔗 **[Clique aqui para testar a versão Web do app](https://SEU_LINK_FLUTLAB_AQUI)**
-
-*(Cole o link gerado pelo FlutLab após compilar a versão Web)*
+> 🔗 **[Clique aqui para testar a versão Web do app](https://preview.flutlab.io/user_hav/pokedex-flutter-firebase/)**
 
 ---
 
@@ -142,8 +140,8 @@ lib/
 
 **1. Clone o repositório:**
 ```bash
-git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
-cd SEU_REPOSITORIO
+git clone https://github.com/ViniciusPanonko/Pokedex-Flutter-Firebase.git
+cd Pokedex-Flutter-Firebase
 ```
 
 **2. Instale as dependências:**
