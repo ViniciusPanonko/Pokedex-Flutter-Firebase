@@ -1,10 +1,10 @@
-# 📱 Pokédex Flutter Firebase
+# Pokedex Flutter Firebase
 
 > Aplicativo mobile de Pokédex desenvolvido com **Flutter**, consumindo a **PokéAPI** e integrando o **Firebase Cloud Firestore** para salvar Pokémons favoritos em tempo real na nuvem.
 
 ---
 
-## 📸 Prints da Aplicação
+## Prints da Aplicação
 
 | Tela Principal | Filtro por Tipo | Detalhes | Favoritos |
 |---|---|---|---|
@@ -12,31 +12,31 @@
 
 ---
 
-## 🌐 Testar o Aplicativo
+## Testar o Aplicativo
 
-> 🔗 **[Clique aqui para testar a versão Web do app](https://preview.flutlab.io/user_hav/pokedex-flutter-firebase/)**
+> **[Clique aqui para testar a versão Web do app](https://preview.flutlab.io/user_hav/pokedex-flutter-firebase/)**
 
 ---
 
-## 🎯 Objetivo do Projeto
+## Objetivo do Projeto
 
 Desenvolver um aplicativo funcional de Pokédex que demonstre na prática o consumo de uma **API REST externa (PokéAPI)** e a integração com um banco de dados em nuvem (**Firebase Cloud Firestore**), como parte de atividade acadêmica de desenvolvimento mobile com Flutter.
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
-- 📋 **Listagem com rolagem infinita** — carrega 20 Pokémons por vez ao rolar a tela
-- 🔍 **Busca por nome ou número** — pesquisa direta na PokéAPI
-- 🎨 **Filtro por tipo** — filtra por todos os tipos oficiais (Fogo, Água, Grama, etc.)
-- 📄 **Tela de detalhes** — exibe imagem oficial, altura, peso, tipos e habilidades
-- ❤️ **Favoritar com Firebase** — salva e remove Pokémons no Firestore em tempo real
-- 📡 **Sincronização em tempo real** — tela de favoritos atualiza instantaneamente via `StreamBuilder`
-- ℹ️ **Tela Sobre** — informações do projeto e do autor
+- **Listagem com rolagem infinita** — carrega 20 Pokémons por vez ao rolar a tela
+- **Busca por nome ou número** — pesquisa direta na PokéAPI
+- **Filtro por tipo** — filtra por todos os tipos oficiais (Fogo, Água, Grama, etc.)
+- **Tela de detalhes** — exibe imagem oficial, altura, peso, tipos e habilidades
+- **Favoritar com Firebase** — salva e remove Pokémons no Firestore em tempo real
+- **Sincronização em tempo real** — tela de favoritos atualiza instantaneamente via `StreamBuilder`
+- **Tela Sobre** — informações do projeto e do autor
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 | Tecnologia | Versão | Finalidade |
 |---|---|---|
@@ -50,7 +50,7 @@ Desenvolver um aplicativo funcional de Pokédex que demonstre na prática o cons
 
 ---
 
-## 🏛️ Arquitetura da Aplicação
+## Arquitetura da Aplicação
 
 O projeto segue o padrão de separação em camadas: **Screens → Services → Models**, com comunicação direta com as APIs externas.
 
@@ -100,7 +100,7 @@ Usuário → FavoritesScreen
 
 ---
 
-## 🗂️ Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 lib/
@@ -127,7 +127,7 @@ lib/
 
 ---
 
-## ⚙️ Como Instalar e Executar
+## Como Instalar e Executar
 
 ### Pré-requisitos
 
@@ -166,7 +166,7 @@ flutter build apk --release
 
 ---
 
-## 🔥 Configuração do Firebase
+## Configuração do Firebase
 
 O projeto já está configurado com o Firebase no arquivo `lib/firebase_options.dart`.
 
@@ -177,7 +177,7 @@ Para configurar em um novo projeto Firebase:
 
 ---
 
-## 🌐 Endpoints da PokéAPI Utilizados
+## Endpoints da PokéAPI Utilizados
 
 | Método | Endpoint | Descrição |
 |---|---|---|
@@ -187,7 +187,7 @@ Para configurar em um novo projeto Firebase:
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 **Vinícius Pannuco Ribeiro**
 
