@@ -50,7 +50,7 @@ O projeto segue o padrão de separação em camadas: **Screens → Services → 
 
 
 <p align="center">
-  <img width="400" src="https://github.com/user-attachments/assets/1a9abb6e-9e4a-4549-8883-ce0b3846df12" alt="Arquitetura do Aplicativo">
+  <img width="500" src="https://github.com/user-attachments/assets/1a9abb6e-9e4a-4549-8883-ce0b3846df12" alt="Arquitetura do Aplicativo">
 </p>
 
 
