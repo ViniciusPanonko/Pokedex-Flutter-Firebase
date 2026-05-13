@@ -48,12 +48,12 @@ Desenvolver um aplicativo funcional de Pokédex que demonstre na prática o cons
 
 O projeto segue o padrão de separação em camadas: **Screens → Services → Models**, com comunicação direta com as APIs externas.
 
-```
+
 <p align="center">
   <img width="940" src="https://github.com/user-attachments/assets/1a9abb6e-9e4a-4549-8883-ce0b3846df12" alt="Arquitetura do Aplicativo">
 </p>
 
-```
+
 
 ### Fluxo de Dados
 
