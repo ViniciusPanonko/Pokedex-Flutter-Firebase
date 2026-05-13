@@ -1,4 +1,4 @@
-# Pokedex Flutter Firebase
+<img width="940" height="782" alt="image" src="https://github.com/user-attachments/assets/1a9abb6e-9e4a-4549-8883-ce0b3846df12" /># Pokedex Flutter Firebase
 
 > Aplicativo mobile de Pokédex desenvolvido com **Flutter**, consumindo a **PokéAPI** e integrando o **Firebase Cloud Firestore** para salvar Pokémons favoritos em tempo real na nuvem.
 
@@ -49,30 +49,8 @@ Desenvolver um aplicativo funcional de Pokédex que demonstre na prática o cons
 O projeto segue o padrão de separação em camadas: **Screens → Services → Models**, com comunicação direta com as APIs externas.
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                        APLICATIVO                           │
-│                                                             │
-│  ┌──────────────────────────────────────────────────────┐  │
-│  │                    SCREENS (UI)                      │  │
-│  │  HomeScreen  │  DetailScreen  │  FavoritesScreen     │  │
-│  └────────┬─────────────┬──────────────────┬────────────┘  │
-│           │             │                  │               │
-│  ┌────────▼─────┐  ┌────▼────────────┐    │               │
-│  │   SERVICES   │  │    SERVICES     │    │               │
-│  │PokeApiService│  │ FirebaseService │◄───┘               │
-│  └────────┬─────┘  └────┬────────────┘                    │
-│           │             │                                  │
-│  ┌────────▼─────┐  ┌────▼────────────┐                    │
-│  │    MODELS    │  │     MODELS      │                    │
-│  │ PokemonModel │  │  PokemonModel   │                    │
-│  └─────────────┘  └─────────────────┘                    │
-│                                                             │
-└───────────────┬─────────────────┬───────────────────────────┘
-                │                 │
-     ┌──────────▼──┐    ┌─────────▼──────────┐
-     │  PokéAPI    │    │  Firebase Firestore │
-     │  (REST API) │    │  (Cloud Database)  │
-     └─────────────┘    └────────────────────┘
+<img width="940" height="782" alt="image" src="https://github.com/user-attachments/assets/c10c99f2-8f9f-42c1-ba89-aa5283669b4a" />
+
 ```
 
 ### Fluxo de Dados
