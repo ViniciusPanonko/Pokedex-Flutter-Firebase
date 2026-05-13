@@ -64,28 +64,8 @@ O projeto segue o padrão de separação em camadas: **Screens → Services → 
 
 ## Estrutura do Projeto
 
-```
-lib/
-├── main.dart                 # Ponto de entrada e inicialização do Firebase
-├── app.dart                  # MaterialApp, tema e rotas
-├── firebase_options.dart     # Configurações de conexão com o Firebase
-│
-├── models/
-│   └── pokemon_model.dart    # Modelo de dados do Pokémon (fromJson, toMap, fromMap)
-│
-├── services/
-│   ├── pokeapi_service.dart  # Consumo da PokéAPI (lista, busca, tipo)
-│   └── firebase_service.dart # CRUD no Firestore (add, remove, get, isFavorite)
-│
-├── screens/
-│   ├── home_screen.dart      # Tela principal com listagem, busca e filtro por tipo
-│   ├── detail_screen.dart    # Tela de detalhes do Pokémon com botão de favoritar
-│   ├── favorites_screen.dart # Tela de favoritos sincronizados com o Firebase
-│   └── about_screen.dart     # Tela sobre o projeto e o autor
-│
-└── widgets/
-    └── pokemon_card.dart     # Widget reutilizável de card do Pokémon
-```
+<img width="2816" height="1536" alt="image" src="https://github.com/user-attachments/assets/d99fab1e-c6c9-411c-a71a-57b1d5d45269" />
+
 
 ---
 
