@@ -12,12 +12,6 @@
 
 ---
 
-## Testar o Aplicativo
-
-> **[Clique aqui para testar a versão Web do app](https://preview.flutlab.io/user_hav/pokedex-flutter-firebase/)**
-
----
-
 ## Objetivo do Projeto
 
 Desenvolver um aplicativo funcional de Pokédex que demonstre na prática o consumo de uma **API REST externa (PokéAPI)** e a integração com um banco de dados em nuvem (**Firebase Cloud Firestore**), como parte de atividade acadêmica de desenvolvimento mobile com Flutter.
