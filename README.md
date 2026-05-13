@@ -57,20 +57,8 @@ O projeto segue o padrão de separação em camadas: **Screens → Services → 
 
 ### Fluxo de Dados
 
-```
-Usuário → HomeScreen
-          ├── PokeApiService.fetchPokemonList()  → PokéAPI → PokemonModel
-          ├── PokeApiService.searchPokemon()     → PokéAPI → PokemonModel
-          └── PokeApiService.fetchByType()       → PokéAPI → PokemonModel
+<img width="4306" height="992" alt="image" src="https://github.com/user-attachments/assets/dc337d89-88ca-4609-9e72-c5db784aa53e" />
 
-Usuário → DetailScreen
-          ├── FirebaseService.isFavorite()       → Firestore (leitura)
-          ├── FirebaseService.addFavorite()      → Firestore (escrita)
-          └── FirebaseService.removeFavorite()   → Firestore (deleção)
-
-Usuário → FavoritesScreen
-          └── FirebaseService.getFavorites()     → Firestore (Stream em tempo real)
-```
 
 ---
 
